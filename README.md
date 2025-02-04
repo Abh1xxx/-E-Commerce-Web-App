@@ -4,7 +4,9 @@
 An interactive and responsive e-commerce web application that allows users to browse products, view product details, add items to the cart, and proceed to purchase. Built using modern web technologies to ensure a seamless user experience.
 
 ---
-
+## Hosted Link
+You can view the deployed version of the project at: [Live Demo](https://3module-end-assgnmt.netlify.app/)
+---
 ## Features
 
 - **Dynamic Product Listing**: Products are fetched from the [Fake Store API](https://fakestoreapi.com/).
