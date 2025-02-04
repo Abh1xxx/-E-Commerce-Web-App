@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex: 1;
+}
+
+.logo {
+  height: 10em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+/* Premium Card Styling */
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff; /* Clean white card background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 12px 30px rgba(0, 123, 255, 0.3); /* Premium shadow */
+}
+
+.productimage {
+  margin-top: 10px;
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Buttons */
+button {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+button.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+button.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: #333;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+/* Offcanvas Header */
+.offcanvas-header {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.offcanvas-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Product Details Styling */
+.viewDetailscardimg {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.viewDetailscardimg img {
+  max-width: 100%;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* New Header Theme */
+.header-theme {
+  background: linear-gradient(135deg, #0a2342, #1f3b73);
+  color: #ffffff;
+}
+
+.footer-theme {
+  background: #0a2342;
+  color: #ffffff;
+}
+
+/* Premium Gold Button for "View Cart" */
+.btn-view-cart {
+  background-color: #d4af37; /* Gold color */
+  border-color: #d4af37;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-view-cart:hover {
+  background-color: #cfa029; /* Slightly darker gold on hover */
+  border-color: #cfa029;
+}
+
+
